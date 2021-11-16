@@ -575,7 +575,7 @@ function updateHostsFile() {
 
 	# Set commands array
 	newhosts=(
-		"192.168.2.1 $hostname $hostname.local $hostname.home #MUDPI-apmode"
+		"192.168.1.9 $hostname $hostname.local $hostname.home #MUDPI-apmode"
 		'10.45.12.1	clients3.google.com #MUDPI-captiveportal'
 		'10.45.12.1	clients.l.google.com #MUDPI-captiveportal'
 		'10.45.12.1	connectivitycheck.android.com #MUDPI-captiveportal'
